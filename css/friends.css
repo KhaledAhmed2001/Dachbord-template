@@ -1,0 +1,59 @@
+.friends-page{
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+@media (max-width: 768px) {
+    .friends-page{
+        grid-template-columns: minmax(200px,1fr);
+        margin-left:10px;
+        margin-right:10px;
+        gap: 10px;
+    }
+    
+}
+.friends-page .contact{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.friends-page .contact i{
+    background-color: #eee;
+    color: #666;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.friends-page .contact i:hover{
+    color: white;
+    background-color: blue;
+}
+.friends-page .friend .icons{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.friends-page .friend .icons i{
+    margin-right: 5px;
+    
+}
+.friends-page .friend .icons .vip{
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    cursor: context-menu;
+    opacity: 0.2;
+    
+}

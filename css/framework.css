@@ -1,0 +1,387 @@
+:root{
+    --blue-color: #0075ff ;
+    --blue-alt-color: #0d69d5 ;
+    ---orange-color: #f59e0b ;
+    ---green-color: #22c55e ;
+    --red-color: #f44336 ;
+    --grey-color: #888 ;
+    /* --color:grey; */
+    }
+   
+/* start-box */
+.d-flex{
+    display: flex
+}
+.d-block{
+    display: block
+}
+.d-grid{
+    display: grid;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.gap-20{
+    gap: 20px;
+}
+.align-center{ 
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .hidden-mobile{
+        display: none;
+    }
+    .block-mobile{
+        display: block;
+    }
+
+}
+@media (max-width: 768px) {
+    
+    .text-c-mobile{
+        text-align: center;
+    }
+    
+}
+/* End-box */
+.center-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.between-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.space-between{
+    justify-content: space-between;
+    
+}
+/* start width +height */
+.w-full{
+    width: 100%;
+}
+.w-100{
+    width: 100px;
+}
+.w-fit{
+    width:fit-content
+}
+.w-50{
+    width: 50%;
+}
+.h-full{
+    height: 100%;
+}
+.h-100{
+height: 100px;
+}
+/* end width-full */
+/* start over-flow */
+.o-hidden{
+    overflow: hidden;
+}
+/* End over-flow */
+/* start padding & margin */
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+.p-25{
+    padding: 25px;
+}
+.pt-0{
+    padding-top: 0px;
+}
+.pt-5{
+    padding-top: 5px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.pb-0{
+    padding-bottom: 0px;
+}
+.pb-5{
+    padding-bottom: 5px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.m-0{
+    margin: 0;
+}
+.m-15{
+    margin: 15px;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mt-45 {
+    margin-top: 45px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+/* End padding & margin */
+/* start color */
+.bg-white{
+    background-color:white ;
+    
+}
+.bg-ccc{
+    background-color: #ccc;
+}
+.bg-orange{
+    background-color:orange;
+}
+.bg-green{
+    background-color:green;
+}
+.bg-grey{
+    background-color:grey;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.c-black{
+    color:black;
+}
+.c-white{
+    color:white;
+}
+.c-blue{
+    color:blue;
+}
+.c-red{
+    color:red;
+}
+.c-orange{
+    color:orange;
+}
+.c-grey{
+    color:grey;
+}
+.c-green{
+    color:green;
+}
+.bg-eee{
+    background-color: #eee ;
+}
+.bg-blue{
+    background-color: #0075ff;
+}
+.bg-red{
+    background-color:red ;
+}
+/* End color */
+
+
+/* start positions */
+.p-relative{
+    position: relative;
+}
+/* End positions */
+
+/* start text-align-center */
+.text-c{
+    text-align: center;
+}
+.text-u{
+    text-transform:uppercase;
+
+}
+
+/* end text-align-center */
+
+
+/* start font */
+.lis-none{
+    list-style: none;
+}
+.fw-bold{
+    font-weight: bold;
+}
+/* .fa-2x{
+    font-size: 2px;
+} */
+.fs-14{
+    font-size: 14px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+/* end font */
+/* start border */
+
+.b-none{
+    border: none;
+}
+.b-b{
+    border-bottom: 1px solid #ddd;
+}
+.border-ccc{
+    border: 1px solid #ccc;
+}
+.rad-10{
+    border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.rad-6{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.rad-half{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* end border */
+.btn-shape{
+    padding: 4px 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+/* start media */
+
+    /* end media */
+    /* start component */
+    
+    /* end component */
+
+    /* start toggle switch */
+    /* <label>
+                    <input class="toggle-checkbox" type="checkbox"checked />
+                    <div class="toggle-switch"></div>
+                </label> */
+.toggle-checkbox{
+    -webkit-appearance: none;
+    appearance:none;
+    display:none;
+}
+.toggle-switch{
+    background: #ccc;
+    width: 80px;
+    height: 34px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.toggle-switch::before{
+    font-family: var(--fa-style-family-classic);
+    content: "\f00d";
+    position: absolute;
+    font-weight: 900;
+    width: 26px;
+    height: 26px;
+    background-color: #eee;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.toggle-checkbox:checked + .toggle-switch{
+background-color: var(--blue-color);
+}
+.toggle-checkbox:checked +.toggle-switch::before{
+    content: "\f00c";
+    left: 50px;
+    color: var(--blue-color);
+}
+/* end toggle switch */

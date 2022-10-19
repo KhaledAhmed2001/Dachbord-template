@@ -1,0 +1,55 @@
+/* <!-- start courses --> */
+.courses-page{
+    grid-template-columns: repeat(auto-fill, minmax(300px , 1fr));
+}
+@media (max-width: 768px) {
+    .courses-page{
+        grid-template-columns: minmax(200px , 1fr);
+        margin-left:10px;
+        margin-right:10px;
+        gap: 10px;
+    }
+}
+.courses-page .courses{
+    overflow: hidden;
+}
+.courses-page .courses .cover{
+    max-width: 100% ;
+}
+.courses-page .courses .instructor{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    border: 2px solid white;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    top: 20px ;
+    left: 20px;
+}
+.courses .discription{
+    line-height: 1.8;
+}
+.courses-page .courses .info{
+    border-top: 1px solid #eee;
+    font-size: 13px;
+}
+.courses-page .courses .info .title{
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%) ;
+    -webkit-transform:translateX(-50%) ;
+    -moz-transform:translateX(-50%) ;
+    -ms-transform:translateX(-50%) ;
+    -o-transform:translateX(-50%) ;
+    height: 26px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
+.courses-page .courses .info .title:hover{
+    background: var(--blue-alt-color);
+}
+/* <!-- end courses --> */

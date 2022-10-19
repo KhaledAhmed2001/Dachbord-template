@@ -1,0 +1,145 @@
+.head .icons .notification::before{
+    top: -5px;
+}
+/* <!-- start profile --> */
+.profile-page {
+}
+@media (max-width: 768px) {
+    .profile-page .overview {
+        flex-direction: column;
+    }
+    .profile-page .info-box .box .toggle-switch{
+        margin: auto;
+    }
+    
+}
+.profile-page .avatar-box {
+    width: 300px;
+}   
+@media (min-width: 768px) {
+    .profile-page .avatar-box {
+        border-right:1px solid #eee;
+        
+    }
+    
+}
+.profile-page .avatar-box  img {
+    width: 150px;
+    height: 150px;
+}
+.profile-page .avatar-box .level {
+    height: 6px ;
+    /* overflow: hidden; */
+    width: 70%;
+    margin: auto;
+
+}
+.profile-page .avatar-box .level span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: var(--blue-color);
+    
+}
+.profile-page .info-box .box {
+    flex-wrap: wrap;
+    border: 1px solid #eee;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.profile-page .info-box .box:hover {
+    background-color: #f9f9f9;
+}
+.profile-page .info-box .box > div{
+    min-width: 250px;
+    padding: 10px 0 0;
+    
+}
+.profile-page .info-box h4{
+    font-weight: normal;
+}
+.profile-page .info-box .box .toggle-switch{
+    height: 20px;
+}
+.profile-page .info-box .box .toggle-switch::before{
+    width: 14px;
+    height: 14px;
+    top: 3px;
+    font-size: 13px
+}
+.profile-page .info-box .box .toggle-checkbox:checked +.toggle-switch::before{
+    left: 62px;
+}
+
+/*<!-- start other data --> */
+@media (max-width: 768px) {
+    .profile-page .other-data{
+        flex-direction: column;
+    }
+    
+}
+.profile-page .skills-card{
+    flex-grow: 1;
+    
+}
+.profile-page .skills-card ul{}
+.profile-page .skills-card ul li{
+    padding: 15px 0;
+}
+.profile-page .skills-card ul li:not(:last-child){
+    border-bottom: 1px solid #eee;
+}
+.profile-page .skills-card ul li span{
+    padding: 4px 15px ;
+    display: inline-flex;
+    background-color: #eee;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 14px;
+}
+    .profile-page .skills-card ul li span:not(:last-child){
+        margin-right: 5px;
+    }
+.profile-page .activities{
+    flex-grow: 2;
+    
+}
+.profile-page .activity:not(:last-child){
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.profile-page .activity img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+@media (min-width: 768px) {
+    .profile-page .activities .activity .date{
+        margin-left: auto;
+        text-align: right;
+    }
+    
+}
+@media (max-width: 768px) {
+    .profile-page .activity  {
+        flex-direction: column;
+    }
+    .profile-page  .activity img {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .profile-page .activity .date{
+        margin-top: 15px;
+    }
+    
+}
+/*<!-- end other data --> */
+/* <!-- end profile --> */
