@@ -2,8 +2,7 @@
     top: -5px;
 }
 /* <!-- start profile --> */
-.profile-page {
-}
+
 @media (max-width: 768px) {
     .profile-page .overview {
         flex-direction: column;
@@ -86,7 +85,6 @@
     flex-grow: 1;
     
 }
-.profile-page .skills-card ul{}
 .profile-page .skills-card ul li{
     padding: 15px 0;
 }
